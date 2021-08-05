@@ -1,0 +1,249 @@
+/* common styles */
+
+*,
+::after,
+::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.section-title {
+    margin-bottom: 20px;
+    font-size: 35px;
+    text-transform: uppercase;
+}
+
+/* common styles */
+/* Top Section styles start here */
+
+#top-section {
+    background: #2D25A0;
+    padding-bottom: 100px;
+    min-height: 100vh;
+    padding-bottom: 10px;
+}
+
+.header {
+    padding: 10px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #2D25A0;
+    width: 100%;
+    z-index: 100;
+
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo1 {
+    display: none;
+}
+
+.nav-menu ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-menu ul li {
+    margin-right: 30px;
+
+}
+
+.nav-menu ul li a {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    transition: color .3s;
+    color: #FFFFFF;
+}
+
+.nav-menu ul li a:hover {
+    color: #E02C6D;
+}
+
+.login {
+    color: #FFFFFF;
+    background: #E02C6D;
+    border: 2px solid #E02C6D;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    padding: 4px 15px;
+    color: #FFFFFF;
+    transition: background-color .3s;
+}
+
+.login i {
+    margin-right: 5px;
+}
+
+
+.login:hover {
+    background-color: deepskyblue;
+}
+
+.inner-banner {
+    display: grid;
+    align-items: center;
+    padding-top: 150px;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.half-width {
+    width: 90%;
+}
+
+.huge-title {
+    margin-bottom: 50px;
+}
+
+.huge-title h1 {
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 80px;
+    color: #FFFFFF;
+    margin-bottom: 27px;
+    max-width: 503px;
+}
+
+.huge-banner img {
+    width: 100%;
+}
+.huge-banner img:hover {
+    transform: scale(0.9) rotate(15deg);
+  }
+  
+
+.watch-btn {
+    color: #FFFFFF;
+    background: #E02C6D;
+    border: 2px solid #E02C6D;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 50px;
+    padding: 15px 30px;
+    color: #FFFFFF;
+    transition: background-color .3s;
+}
+
+.watch-btn i {
+    margin-left: 5px;
+}
+
+
+.watch-btn:hover {
+    background-color: deepskyblue;
+}
+
+
+/* Top Section styles end here */
+/* Footer Section */
+footer {
+    padding: 60px 0;
+    text-align: center;
+}
+
+.logo1,
+.logo {
+    margin: 0 auto;
+    max-width: 200px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.logo1 img,
+.logo img {
+    width: 100%;
+}
+
+.social-links {
+    margin-bottom: 20px;
+}
+
+.social-links ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-links ul li {
+    margin: 0 7px;
+    padding: 10px;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    position: relative;
+    transition: .3s;
+    background-color: #ddd;
+}
+
+.social-links ul li:nth-child(1):hover i {
+    color: #3f729b;
+}
+
+.social-links ul li:nth-child(2):hover i {
+    color: #ea4c89;
+}
+
+.social-links ul li:nth-child(3):hover i {
+    color: #00acee;
+}
+
+.social-links ul li:nth-child(4):hover i {
+    color: #FF0000;
+}
+
+.social-links ul li a i {
+    font-size: 18px;
+    margin: 0 7px;
+    color: #969BAB;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transition: all .3s;
+    transform: translateY(-50%) translateX(-87%);
+}
+
+.social-links ul li:nth-child(1) i {
+    transform: translateY(-50%) translateX(-93%);
+}
+
+.social-links ul li:nth-child(4) i {
+    transform: translateY(-50%) translateX(-83%);
+}
+
+footer p {
+    font-size: 18px;
+    line-height: 24px;
+}
+
+/* Footer Section Ends */
