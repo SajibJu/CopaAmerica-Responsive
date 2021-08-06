@@ -85,10 +85,11 @@
         min-height: auto;
     }
 
-    #players,
+    #players
     {
         padding: 50px 0;
     }
+    
 
 }
 
@@ -206,7 +207,7 @@
         font-size: 15px;
     }
 
-    #players,
+    #players
      {
         padding: 50px 0;
     }
@@ -221,9 +222,5 @@
       .partners-logo img {
         width: 30px;
       }
-      
-
-}
-
-
- /* Responsive  Ends    */
+    }
+    /* Responsive Ends */
