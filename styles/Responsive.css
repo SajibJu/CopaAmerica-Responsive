@@ -221,16 +221,7 @@
       .partners-logo img {
         width: 30px;
       }
-      .partners {
-        display: grid;
-        margin-top: 50px;
-      }
-      .partners-logo {
-        display: grid;
-        grid-template-columns: repeat(3, 2fr);
-        column-gap: 40px;
-        row-gap: 30px;
-      }
+      
 
 }
 
