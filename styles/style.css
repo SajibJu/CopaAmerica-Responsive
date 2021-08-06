@@ -137,6 +137,7 @@ a {
 
 .huge-banner img {
     width: 100%;
+   
 }
 .huge-banner img:hover {
     transform: scale(0.9) rotate(15deg);
@@ -220,7 +221,64 @@ a {
 
 
   /* Players Section  Ends */
-
+  /* Stats Section */
+  .section-title h2{
+      color: #dde8ff;
+      font-size: 1em;
+  }
+#stats-area {
+    padding: 60px 0 80px 0;
+    background-color: #101b7a;
+  }
+  
+  .stats {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+  }
+  
+  .stats-box {
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #14b8a2;
+  }
+  
+  .stats-label {
+    color: #FFFFFF;
+    font-size: 20px;
+  }
+  
+  .stats-value {
+    color: #ffffff;
+    font-size: 30px;
+  }
+  
+ /* Stats Section */
+ /* Sponsors */
+ .partners {
+    
+    width: 80%;
+    padding: 50px 0px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  }
+  .partners-title {
+    font-size: 2em;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 100px;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  .partners-logo {
+    display: flex;
+    justify-content: space-evenly;
+    max-height: 290px;
+    margin-bottom: 16px;
+  }
+ /* Sponsors */
 /* Footer Section */
 footer {
     padding: 60px 0;
