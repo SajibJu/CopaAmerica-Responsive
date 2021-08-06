@@ -81,6 +81,7 @@ a {
 
 .nav-menu ul li a {
     font-weight: 500;
+    font-family: 'Poppins';
     font-size: 16px;
     line-height: 24px;
     transition: color .3s;
@@ -208,6 +209,7 @@ a {
     margin-bottom: 10px;
     font-weight: bold;
     font-size: 28px;
+    font-family: 'Poppins';
     line-height: 40px;
     color: #18191F;
 }
@@ -215,6 +217,7 @@ a {
 
 .player p {
     font-size: 16px;
+    font-family: 'Poppins';
     line-height: 26px;
     color: #6C6C6C;
     margin-bottom: 30px;
@@ -225,7 +228,7 @@ a {
   /* Stats Section */
   .section-title h2{
       color: #dde8ff;
-      font-size: 1em;
+      font-size: 30px;
   }
 #stats-area {
     padding: 60px 0 80px 0;
@@ -267,7 +270,7 @@ a {
     margin: auto;
   }
   .partners-title {
-    font-size: 2em;
+    font-size: 30px;
     font-family: 'Poppins', sans-serif;
     margin-bottom: 100px;
     text-transform: uppercase;
@@ -286,7 +289,7 @@ footer {
     text-align: center;
 }
 
-.logo1,
+
 .logo {
     margin: 0 auto;
     max-width: 200px;
@@ -294,7 +297,7 @@ footer {
     margin-bottom: 20px;
 }
 
-.logo1 img,
+
 .logo img {
     width: 100%;
 }
