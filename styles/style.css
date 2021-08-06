@@ -65,6 +65,7 @@ a {
 
 .logo1 {
     display: none;
+    align-items: center;
 }
 
 .nav-menu ul {

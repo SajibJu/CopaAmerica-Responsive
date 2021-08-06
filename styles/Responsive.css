@@ -123,6 +123,11 @@
         display: block;
         width: 180px;
         margin: 0;
+        
+        
+    }
+    .logo1 img{
+        align-items: center;
     }
 
     .nav-menu ul {
@@ -223,4 +228,73 @@
         width: 30px;
       }
     }
+
+    @media (max-width: 767px) {
+  /* Common CSS Responsive */
+  .flex {
+    flex-direction: column;
+  }
+
+  .half-width {
+    width: 100%;
+    padding: 20px 0;
+  }
+
+  .half-width:first-child {
+    padding-top: 0;
+  }
+
+  .half-width:last-child {
+    padding-bottom: 0;
+  }
+
+  /* Players, Blog and Stats Area Responsive */
+  .players,
+  .blogs,
+  .stats {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  /* Footer Area Responsive */
+  .footer-logo {
+    width: 270px;
+  }
+
+  /* Sections Padding Responsive */
+  #banner-area {
+    padding: 60px 0;
+  }
+
+  #players-area {
+    padding: 45px 0;
+  }
+
+  #highlights-area {
+    padding: 15px 0 45px 0;
+  }
+
+  #stats-area {
+    padding: 50px 0 60px 0;
+  }
+}
+
+    /* For Mobile Devices */
+    
+    @media (max-width: 767px) {
+      
+     
+        /*Stats Area Responsive */
+        
+        .stats {
+          grid-template-columns: repeat(1, 1fr);
+        }
+      
+   
+      
+      
+        #stats-area {
+          padding: 50px 0 60px 0;
+        }
+      }
+      /* For Mobile Devices */
     /* Responsive Ends */
